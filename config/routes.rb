@@ -9,6 +9,8 @@ Rails.application.routes.draw do
     end
   end
 
+  get 'api/v1/weather', to: 'api/v1/weather#weathers'
+
   # get '/transaction', to: 'api/v1/plaid#transaction'
   # post '/get_access_token', to: 'api/v1/plaid#get_access_token'
 

@@ -51,3 +51,4 @@ gem "figaro"
 gem "active_model_serializers", "~> 0.10.8"
 
 gem "faker", "~> 1.9"
+gem 'rest-client'
